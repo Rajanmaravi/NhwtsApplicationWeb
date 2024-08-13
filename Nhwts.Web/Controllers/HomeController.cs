@@ -77,6 +77,7 @@ namespace Nhwts.Web.Controllers
         {
             try
             {
+                //login 
                 var md5pass = GetMD5Hash(login.password).ToLower();
                 var pass = string.Empty;
 
