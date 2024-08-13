@@ -1,0 +1,343 @@
+﻿@using Nhwts.Model
+@model StateViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+@* <form id="loginForm" asp-controller="Home" asp-action="LoginForNonOcmmsUserAndOcmmsUser" method="post"> *@
+<form id="loginForm">
+    <section id="intro" class="px-3">
+        <div class="row">
+            <div class="col-md-9" style="height:420px;">
+                <div id="carouselExampleIndicators" class="carousel slide" style="box-shadow: 2px 2px 50px #bababa;">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/post/image1.png" class="d-block w-100" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/post/image2.png" class="d-block w-100" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/post/image3.png" class="d-block w-100" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/post/image4.png" class="d-block w-100" alt="Fourth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/post/image5.png" class="d-block w-100" alt="Fifth slide">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-4 p-0" style="height:420px;">
+                <div class="carousel-inner" style="box-shadow: 2px 2px 50px #bababa;">
+                    <div class="carousel-item active mycard_1">
+                        <img class="first-slide" src="images/post/nhwts_cropped_3.png" alt="First slide" />
+                        <div style="background-image: url(Images/post/nhwts_cropped_3.png); height: auto; width: auto;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 bg-light_1" style="box-shadow: 2px 2px -1px #bababa;">
+                <div id="login" class="row " style="">
+                    <div class="login_inner m-auto" style="width:100%">
+                        <div style="width: -webkit-fill-available;">
+
+                            <div class="mycard_1" style="padding-bottom: 15px;padding-top: 0px;">
+                                <div class="w3-container" style="color: #fff!important; background: #058be4; text-align: center; margin-bottom:5px">
+                                    <h2 style="font-size: 1.5rem; margin:7px 0;display: inline-block;">
+                                        <i class="fa fa-user" aria-hidden="true"></i>Login
+                                    </h2>
+                                </div>
+                                <div class="w3-container" style="padding: 0px;min-height: 355px;">
+                                    <div class="mx-auto" style="">
+
+
+                                        <div class="radio-buttons">
+                                            <span class="radio-control">
+                                                <input id="RadioButtonindustry" type="radio" name="loginradio" value="industry" checked="checked">
+                                                <label for="RadioButtonindustry">Industry</label>
+                                            </span>
+                                            <span class="radio-control">
+                                                <input id="RadioButtondepartment" type="radio" name="loginradio" value="department">
+                                                <label for="RadioButtondepartment">Department</label>
+                                            </span>
+                                            <span class="radio-control">
+                                                <input id="RadioButtontransport" type="radio" name="loginradio" value="transport">
+                                                <label for="RadioButtontransport">Transporter</label>
+                                            </span>
+                                        </div>
+
+                                        <!-- Common State Select Element (Initially Hidden) -->
+                                        <div id="commonStateSelectWrapper" style="display: none; text-align:center;">
+                                           @*  <select name="userstatedd" id="commonStateSelect" onchange="userstatechange(this);" style="font-size:15px; margin-top:10px;width: 53%; padding: 2px 5px; border-radius: 5px;"> *@
+                                            <select name="userstatedd" id="commonStateSelect" style="font-size:15px; margin-top:10px;width: 53%; padding: 2px 5px; border-radius: 5px;">
+                                                <option value="-1">Select State</option>
+                                                @foreach (var state in Model.States)
+                                                {
+                                                    <option value="@state.Stcode">@state.State</option>
+                                                }
+                                            </select>
+                                        </div>
+
+                                        <!-- Industry Section -->
+                                        <div id="industrySection" style="display: block;">
+                                            <div id="userStateddIndustryWrapper" style="text-align:center;">
+                                             
+                                            </div>
+
+                                            <div id="UpdatePanel2" style="text-align:center;">
+                                                <input name="usernametextbox" type="text" maxlength="30" id="usernametextbox" tabindex="1" class="w3-input" placeholder="User Name:" style="background-color:White;border-color:#123456;border-width:1px;border-style:Solid;margin-top:10px;width: 53%; border-radius: 6px;">
+                                                <input name="passwordtextbox" type="password" maxlength="30" id="passwordtextbox" tabindex="1" class="w3-input" placeholder="Enter Password" style="background-color:White;border-color:#123456;border-width:1px;border-style:Solid;margin-top:10px;width: 53%; border-radius: 6px;">
+                                            </div>
+
+                                            <div style="text-align:center; color: #385dae; font-weight: bold; font-size: smaller; margin:10px auto;width:53%;">
+                                                <div id="UpdatePanel4" style="background-color:White;">
+                                                    <img id="captchaImage" src="@ViewBag.CaptchaImage" alt="CAPTCHA" border="0" width="120" height="31" style="position: absolute;left: 0;" />
+                                                    <input type="image" name="loadCaptcha" id="loadCaptcha" onclick="loadCaptcha()" src="images/master/refresh.png" style="float: right; margin-right: 140px; border: none; cursor: pointer;position: relative; z-index: 1;" />
+                                                    <input name="txtCap" type="text" maxlength="8" id="txtCap" tabindex="3" style="border-color:#385DAE;border-width:1px;border-style:Solid;width:100%;margin-top:10px"><br>
+                                                </div>
+                                            </div>
+
+                                            <div id="up1" style="text-align:center;">
+                                                <input type="submit" name="loginbtn" value="Login" id="loginbtn" tabindex="4" class="w3-button w3-round w3-hover-postalred btn-ui" style="width:100px;color: #fff!important;margin-top: 5px;">
+                                            </div>
+
+                                            <div style="text-align:center;">
+                                                <span id="lblNoteOccms" class="TextBoldRed" style="font-size: 14px;font-weight:600;"></span>
+                                            </div>
+                                        </div>
+                                        <!-- End Industry Section -->
+                                        <!-- Department Section -->
+                                        <div id="departmentSection" style="display: none;">
+                                            <div  style="text-align:center;">
+                                                <select name="usertypedd" id="usertypedd" onchange="handleUserTypeChange(this);" style="font-size:15px; margin-top:10px;width: 53%; padding: 2px 5px; border-radius: 5px;">
+                                                    <option selected="selected" value="-1">Select Category</option>
+                                                    <option value="Admin">Admin</option>
+                                                    <option value="CPCB">CPCB</option>
+                                                    <option value="SPCB">SPCB</option>
+                                                </select>
+                                            </div>
+
+                                            <div id="userstateddSPCBWrapper" style="text-align:center;display: none;">
+                                               
+                                            </div>
+
+                                            <div id="userTxtDepartmentWrapper" style="text-align:center;display: none;">
+                                                <input name="usernametxtDepartment" type="text" maxlength="30" id="usernametxtDepartment" tabindex="1" class="w3-input" placeholder="User Name:" style="background-color:White;border-color:#123456;border-width:1px;border-style:Solid;margin-top:10px;margin-left: auto; margin-right: auto; border-radius: 6px;width: 53%;">
+                                            </div>
+
+                                        </div>
+
+                                       
+
+
+                                        <!--End Department Section -->
+                                        <!-- Transport Section -->
+                                        <div id="transportSection" style="display: none;">
+                                            <div style="text-align:center;">
+                                                <input name="entermobile" type="text" maxlength="10" id="entermobile" tabindex="1" class="w3-input" placeholder="Enter Mobile No" style="background-color:White;border-color:#123456;border-width:1px;border-style:Solid;margin-top:10px;margin-left: auto; margin-right: auto; border-radius: 6px;width: 53%;">
+                                            </div>                                          
+                                        </div>
+
+                                        <!-- Common Send OTP Button -->
+                                        <div id="sendotpbtnWrapper" style="display: none;" style="text-align:center; margin-top: 10px;">
+                                            <input type="submit" name="sendotpbtn" value="Send OTP" onclick="sendOtp();" id="sendotpbtn" tabindex="4" class="w3-button w3-round w3-hover-postalred btn-ui" style="width:100px;color: #fff!important;">
+                                        </div>
+
+                                       
+
+                                    </div>
+
+                                    <div style="">
+                                        <center>
+                                            <a id="btnRegistration" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnRegistration&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="color:#058BE4;">Registration</a>
+
+                                            <a id="forgotpwbtn" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;forgotpwbtn&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="color: rgb(5, 139, 228); margin-left: 21px;">Forgot Password</a>
+
+                                            <br>
+                                        </center>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+</form>
+@section Scripts {
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            var loginSectionType = "";
+
+            function toggleFormSections(selectedValue) {
+                // Hide all sections
+                $('#industrySection').hide();
+                $('#departmentSection').hide();
+                $('#transportSection').hide();
+                $('#sendotpbtnWrapper').hide();
+
+                // Show the selected section
+                if (selectedValue === 'industry') {
+                    $('#commonStateSelectWrapper').appendTo('#userStateddIndustryWrapper').show();
+                    $('#industrySection').show();
+                    $('#userstateddWrapper').show();
+                    loginSectionType = 'industry';
+                } else if (selectedValue === 'department') {
+                    $('#departmentSection').show();
+                    $('#sendotpbtnWrapper').show();
+                    loginSectionType = 'department';
+                } else if (selectedValue === 'transport') {
+                    $('#transportSection').show();
+                    $('#sendotpbtnWrapper').show();
+                    loginSectionType = 'transport';
+                }
+            }
+
+            // Attach the toggle function to radio buttons
+            $('#RadioButtonindustry').on('click', function () {
+                toggleFormSections('industry');
+            });
+            $('#RadioButtondepartment').on('click', function () {
+                toggleFormSections('department');
+            });
+            $('#RadioButtontransport').on('click', function () {
+                toggleFormSections('transport');
+            });      
+
+            // Initialize the form state
+            var initialValue = $('input[name="loginradio"]:checked').val();
+            if (initialValue) {
+                toggleFormSections(initialValue);
+            }
+
+
+            //load captcha
+            $('#loadCaptcha').on('click', function (event) {
+                event.preventDefault(); // Prevent form submission
+
+                $.ajax({
+                    url: '@Url.Action("RefreshCaptcha", "Home")',
+                    type: 'GET',
+                    success: function (data) {
+                        $('#captchaImage').attr('src', data.image);
+                    },
+                    error: function () {
+                        console.error('Failed to refresh CAPTCHA.');
+                    }
+                });
+            });
+
+            //end load captcha
+
+
+            function handleUserTypeChange(selectElement) {
+                var selectedValue = $(selectElement).val();
+
+                // Show or hide the state dropdown based on the selected user type
+                if (selectedValue === 'SPCB') {
+                    $('#commonStateSelectWrapper').appendTo('#userstateddSPCBWrapper').show();
+                    $('#userstateddSPCBWrapper').show();
+                    $('#userTxtDepartmentWrapper').show();                  
+                }
+                else if (selectedValue === "Admin") {
+                    $('#userTxtDepartmentWrapper').show();
+                    $('#userstateddSPCBWrapper').hide()
+                }
+                else if (selectedValue === "CPCB") {
+                    $('#userTxtDepartmentWrapper').show();
+                    $('#userstateddSPCBWrapper').hide()
+                }
+
+
+            }
+
+            // Attach the change event handler to the user type dropdown
+            $('#usertypedd').on('change', function () {
+                handleUserTypeChange(this);
+            });
+
+            // Initialize visibility based on the initial selection
+            handleUserTypeChange($('#usertypedd').get(0));
+
+
+        });
+
+        //For login
+        $(document).ready(function () {
+
+            $('#loginbtn').on('click', function (event) {
+                event.preventDefault(); // Prevent form submission
+
+
+                var selectedRadio = $('input[name="loginradio"]:checked').val();
+                if (selectedRadio === 'industry') {
+                    var selectedState = $('#commonStateSelect').val();
+                    var username = $('#usernametextbox').val();
+                    var password = $('#passwordtextbox').val();
+                    var captcha = $('#txtCap').val();
+                } else if (selectedRadio === 'department') {
+                    var selectedUserType = $('#usertypedd').val();
+                    var username = $('#usernametxtDepartment').val();
+                    var selectedState = $('#commonStateSelect').val();
+                } else if (selectedRadio === 'transport') {
+                    var mobileNumber = $('#entermobile').val();
+                }
+                
+
+                // Create data object to send in the request
+                var requestData = {
+                    loginRadio: selectedRadio,
+                    userType: selectedUserType,
+                    state: selectedState,
+                    username: username,
+                    mobileNumber: mobileNumber,
+                    captcha: captcha,
+                    password: password,
+                };
+
+                $.ajax({
+                    url: '@Url.Action("LoginForNonOcmmsAndOcmmsUser", "Home")',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(requestData),
+                    success: function (data) {
+                        console.log('Data posted successfully:', data);
+                        window.location.href = '@Url.Action("Industry", "Industry")';
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        console.error('Failed to post data:', textStatus, errorThrown);
+                    }
+                });
+
+            });
+
+        });
+
+    </script>
+}                                               

@@ -1,0 +1,11 @@
+F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Model\bin\Debug\net6.0\Nhwts.Model.deps.json
+F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Model\bin\Debug\net6.0\Nhwts.Model.dll
+F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Model\bin\Debug\net6.0\Nhwts.Model.pdb
+F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\Nhwts.Model.GeneratedMSBuildEditorConfig.editorconfig
+F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\Nhwts.Model.AssemblyInfoInputs.cache
+F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\Nhwts.Model.AssemblyInfo.cs
+F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\Nhwts.Model.csproj.CoreCompileInputs.cache
+F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\Nhwts.Model.dll
+F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\refint\Nhwts.Model.dll
+F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\Nhwts.Model.pdb
+F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\ref\Nhwts.Model.dll

@@ -1,0 +1,296 @@
+﻿@media (min-width:320px) and (max-width:440px) {
+
+	#centralword {
+		display: none !important;
+	}
+
+	.navbar img {
+		max-height: 55px;
+	}
+
+	#firstword {
+		width: max-content !important;
+	}
+}
+
+@media (min-width:441px) and (max-width:700px) {
+
+	#centralword {
+		display: none !important;
+	}
+
+	.navbar img {
+		max-height: 55px;
+	}
+
+	#firstword {
+		width: max-content !important;
+	}
+}
+
+#capimage {
+	margin-bottom: 10px;
+	box-shadow: 5px 5px 5px 5px gray;
+	width: 105px;
+	font-weight: 400;
+	padding-bottom: 0px;
+	height: 40px;
+	user-select: none;
+	text-decoration: line-through;
+	font-style: italic;
+	font-size: x-large;
+	border: red 2px solid;
+}
+
+.radio-control label {
+	margin-bottom: 0px !important;
+	padding: 4px !important;
+}
+
+.jc-center {
+	justify-content: center !important;
+}
+
+.col-md-centre {
+	-ms-flex: 0 0 40%;
+	flex: 0 0 40%;
+	max-width: 40%;
+}
+
+.col-md-side {
+	-ms-flex: 0 0 30%;
+	flex: 0 0 30%;
+	max-width: 30%;
+}
+
+.multi-bg2 {
+	width: 100%;
+	/* background: linear-gradient(to right, orange, #ffffff, #ffffff, green);*/
+	/*background-image: images/G20.png*/
+	background-image: url(images/G20.jpg)
+}
+
+@media screen and (max-width: 700px) {
+
+	/* #login > div {
+                padding-bottom: 0px;
+            }
+
+            #txtUserName {
+                width: 100%;
+            }
+
+            #txtPassword {
+                width: 100%;
+            }
+
+            #login {
+                padding-right: 10px;
+            }*/
+
+	#ImageButton1 {
+		padding-right: 60px;
+		margin-right: 0px !important;
+	}
+
+	/* .multi-bg2 {
+                width: 100%;
+                background-image:url(images/G20_mob.jpg)
+            }*/
+}
+
+
+@media screen and (max-width: 700px) {
+
+	#digind1 {
+		height: 35px !important;
+		width: 75px !important;
+	}
+
+	#mygovlogo1 {
+		height: 35px !important;
+		width: 90px !important;
+	}
+
+
+	#g20logoid1 {
+		height: 35px !important;
+		width: 80px !important;
+	}
+}
+
+
+
+@media (min-width: 700px) and (max-width: 1359px) {
+
+
+	#digind1 {
+		height: 35px !important;
+		width: 65px !important;
+	}
+
+	#mygovlogo1 {
+		height: 35px !important;
+		width: 90px !important;
+	}
+
+
+	#g20logoid1 {
+		height: 35px !important;
+		width: 80px !important;
+	}
+
+	.visitorcount1 {
+		margin-top: 4px !important;
+	}
+}
+
+@media (min-width: 1360px) {
+
+	#digind1 {
+		height: 50px !important;
+		width: 120px !important;
+	}
+
+	#mygovlogo1 {
+		height: 45px !important;
+		width: 120px !important;
+	}
+
+
+	#g20logoid1 {
+		height: 45px !important;
+		width: 90px !important;
+	}
+}
+
+
+.hghMIn {
+	/* background: #f4faff;*/
+	background: #d3e2ef;
+	box-shadow: 0 6px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);
+	z-index: 9
+}
+
+.lh25 {
+	line-height: 1.25;
+}
+
+.hedline {
+	border-bottom: 1px dashed #058be4 !important;
+	padding-bottom: 6px;
+	font-weight: 600 !important;
+}
+
+.text-info {
+	color: #058be4 !important;
+}
+
+img.img-fluid.w-100 {
+	border-radius: 3px;
+}
+
+p.conticon {
+	background: #058be4;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	margin: 0;
+	font-size: 17pt;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 100px;
+	margin-right: 15px;
+}
+
+.link-blue {
+	font-weight: 400 !important;
+	color: #0056b3 !important;
+}
+
+div#capimage {
+	display: inline-block;
+	margin: 0 !important;
+}
+
+.font-weight-normal {
+	font-weight: normal !important;
+}
+
+/*rd css start*/
+.multi-bg2 {
+	width: 100%;
+	background: linear-gradient(to right, orange 36%, #ffffff, #ffffff, green);
+}
+.top-menu {
+	background: #058be4;
+	color: #fff;
+	margin: 0;
+}
+nav.navbar.navbar-default {
+	background: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	color: #fff;
+	padding: 10px 0;
+	font-size: 0.9rem;
+}
+.navbar {
+	min-height: 50px;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0rem 1rem;
+	z-index: 1;
+}
+	.navbar img {
+		max-height: 80px;
+	}
+nav.navbar.navbar-default h1 {
+	font-size: 1.75rem;
+	font-weight: 700 !important;
+	margin: 2px;
+}
+nav.navbar.navbar-default h6 {
+	font-size: 0.8rem;
+}
+
+nav.navbar.navbar-default h1, nav.navbar.navbar-default h6 {
+	color: #000;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 500 !important;
+	line-height: 1.1; 
+}
+a { 
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+	font-weight: bold !important;
+}
+.visitor_count {
+	color: #000;
+	font-size: 14pt;
+	font-weight: 500;
+	background: #fff;
+	padding: 3px 5px;
+	white-space: nowrap;
+}
+.carousel-item img {
+	position: inherit;
+	width: 100%;
+	min-height: 350px;
+}
+@media (min-width: 1360px) {
+	.imgfooter1 {
+		height: 45px !important;
+		width: 165px !important;
+		padding-top: 2px !important;
+		padding-bottom: 2px !important;
+		margin-right: 25px !important;
+	}
+}
+/*rd css END*/ 
