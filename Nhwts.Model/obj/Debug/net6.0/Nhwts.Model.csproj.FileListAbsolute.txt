@@ -9,3 +9,16 @@ F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\Nhwts
 F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\refint\Nhwts.Model.dll
 F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\Nhwts.Model.pdb
 F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\ref\Nhwts.Model.dll
+R:\Workspace\NhwtsWeb\NhwtsApplicationWeb\Nhwts.Model\bin\Debug\net6.0\Nhwts.Model.deps.json
+R:\Workspace\NhwtsWeb\NhwtsApplicationWeb\Nhwts.Model\bin\Debug\net6.0\Nhwts.Model.dll
+R:\Workspace\NhwtsWeb\NhwtsApplicationWeb\Nhwts.Model\bin\Debug\net6.0\Nhwts.Model.pdb
+R:\Workspace\NhwtsWeb\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\Nhwts.Model.GeneratedMSBuildEditorConfig.editorconfig
+R:\Workspace\NhwtsWeb\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\Nhwts.Model.AssemblyInfoInputs.cache
+R:\Workspace\NhwtsWeb\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\Nhwts.Model.AssemblyInfo.cs
+R:\Workspace\NhwtsWeb\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\Nhwts.Model.csproj.CoreCompileInputs.cache
+R:\Workspace\NhwtsWeb\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\Nhwts.Model.sourcelink.json
+R:\Workspace\NhwtsWeb\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\Nhwts.Model.dll
+R:\Workspace\NhwtsWeb\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\refint\Nhwts.Model.dll
+R:\Workspace\NhwtsWeb\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\Nhwts.Model.pdb
+R:\Workspace\NhwtsWeb\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\ref\Nhwts.Model.dll
+R:\Workspace\NhwtsWeb\NhwtsApplicationWeb\Nhwts.Model\obj\Debug\net6.0\Nhwts.Model.csproj.AssemblyReference.cache

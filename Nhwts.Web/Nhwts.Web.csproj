@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\Files\nhwtsdocuments\**" />
+    <Compile Remove="wwwroot\Files\processflowsheet\**" />
+    <Content Remove="wwwroot\Files\nhwtsdocuments\**" />
+    <Content Remove="wwwroot\Files\processflowsheet\**" />
+    <EmbeddedResource Remove="wwwroot\Files\nhwtsdocuments\**" />
+    <EmbeddedResource Remove="wwwroot\Files\processflowsheet\**" />
+    <None Remove="wwwroot\Files\nhwtsdocuments\**" />
+    <None Remove="wwwroot\Files\processflowsheet\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.17" />
   </ItemGroup>
 

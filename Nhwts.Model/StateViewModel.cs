@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Nhwts.Model
 {
-    public class StateViewModel
+    public class StateViewModel:ResponseModel
     {
-        public List<States> States { get; set; }
+        public List<States>? States { get; set; }
     }
 }

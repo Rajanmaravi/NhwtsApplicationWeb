@@ -1,0 +1,381 @@
+﻿@using Nhwts.Model
+@model IndustryRegistration
+@{
+                            <h4>@ViewBag.Title</h4>
+    Layout = "_IndustryLayout";
+}
+
+
+@* <form asp-controller="Industry" asp-action="IndustryRegistration" method="post" enctype="multipart/form-data"> *@
+<form>
+    <div class="container-fluid mt-2">
+        <div class="card mb-3">
+            <div class="card-header text-center" id="lblHeading">
+                REGISTRATION FORM
+            </div>
+            <div class="card-body">
+
+                <div class="row form-group mb-3">
+                    <div class="col-md-6 form-group">
+                        <div class="row" id="userCategorydiv">
+                            <div class="col-md-4">
+                                <label Class="registration-label">Category</label>
+
+                            </div>
+                            <div class="col-md-8">
+                                <input name="industrytex" type="text" maxlength="30" disabled value="Industry" tabindex="1" class="registration-input" />
+                                
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-md-6 form-group">
+                            <div class="row" id="userStatediv" runat="server">
+                                <div class="col-md-4">
+                                    <label Class="registration-label"> State</label>
+
+
+                                </div>
+                                <div class="col-md-8">
+                                <select name="Stcode" asp-for="Stcode" id="Stcode" Class="registration-input" onchange="GetDistricts()">
+                                        <option value="-1">Select State</option>
+                                        @foreach (var state in Model.States)
+                                        {
+                                            <option value="@state.Stcode">@state.State</option>
+                                        }
+                                    </select>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="row form-group mb-3">
+                    <div class="col-md-6 form-group">
+                        <div class="row" id="userDistrictdiv" runat="server">
+                            <div class="col-md-4">
+                               
+                                <label Class="registration-label"> District</label>
+                            </div>
+                            <div class="col-md-8">
+                                <select name="Dtcode" asp-for="Dtcode" id="Dtcode" Class="registration-input" >
+                                    <option value="-1">Select District</option>
+                                    </select>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <div class="row">
+                            <div class="col-md-4">
+                               
+                                <label asp-for="Username" Class="registration-label"></label>
+                            </div>
+                            <div class="col-md-8">
+                                <input name="Username" id="Username" asp-for="Username" type="text" maxlength="30" value="" tabindex="1" class="registration-input" />
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-group mb-3">
+                    <div class="col-md-6 form-group">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label asp-for="Password" Class="registration-label"></label>
+                               
+                            </div>
+                            <div class="col-md-8">
+                                <input name="Password" id="Password" asp-for="Password" type="password" maxlength="30" value="" tabindex="1" class="registration-input" />
+                               
+                            </div>
+                            <div style="color:red; padding: 4px 23px;font-size:11px;">
+                                Password should have 8 characters/ numeric value/ Lower & Upper case
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label Class="registration-label">Confirm Password</label>
+                               
+
+                            </div>
+                            <div class="col-md-8">
+                                <input name="Confirmpassword" id="Confirmpassword" asp-for="Confirmpassword" type="password" maxlength="30" value="" tabindex="1" class="registration-input" />
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6 form-group">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label Class="registration-label">Industry Name</label>
+                               
+                            </div>
+                            <div class="col-md-8">
+                                <input name="IndustryName" id="IndustryName" asp-for="IndustryName" type="text" maxlength="50" value="" tabindex="1" class="registration-input" />
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label Class="registration-label">Facility Address</label>
+                                
+
+                            </div>
+                            <div class="col-md-8">
+                                <input name="IndustryAddress" id="IndustryAddress" asp-for="IndustryAddress" type="text" maxlength="100" value="" tabindex="1" class="registration-input" />
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6 form-group">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label Class="registration-label">Name of contact/authorized person</label>
+                                
+                            </div>
+                            <div class="col-md-8">
+                                <input name="ContactPersonName" id="ContactPersonName" asp-for="ContactPersonName" type="text" maxlength="100" value="" tabindex="1" class="registration-input" />
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label Class="registration-label">Mobile Number</label>
+                               
+
+                            </div>
+                            <div class="col-md-8">
+                                <input name="MobileNumber" id="MobileNumber" asp-for="MobileNumber" type="text" maxlength="10" value="" tabindex="1" class="registration-input" />
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6 form-group">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label Class="registration-label">Email</label>
+                               
+                            </div>
+                            <div class="col-md-8">
+                                <input name="EmailId" id="EmailId" type="text" asp-for="EmailId" maxlength="100" value="" tabindex="1" class="registration-input" />
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label Class="registration-label">Authorization/ Application No.</label>
+                            </div>
+                            <div class="col-md-8">
+                                <input name="AuthorizationNo" id="AuthorizationNo" asp-for="AuthorizationNo" type="text" maxlength="100" value="" tabindex="1" class="registration-input" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6 form-group">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label Class="registration-label">Authorization Issuance</label>
+                               
+                            </div>
+                            <div class="col-md-8">
+                                <input name="AuthissuanceDate" id="AuthissuanceDate" asp-for="AuthissuanceDate" type="date" maxlength="20" class="registration-input" />
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label Class="registration-label">Authorization Validity</label>
+                               
+
+                            </div>
+                            <div class="col-md-8">
+                                <input name="AuthValidity" id="AuthValidity" asp-for="AuthValidity" type="date" maxlength="20" class="registration-input" />
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6 form-group">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label Class="registration-label">Product Commencement Year</label>
+                                
+                            </div>
+                            <div class="col-md-8">
+                                <input name="ProductCommenceYear" asp-for="ProductCommenceYear" id="ProductCommenceYear" type="text" maxlength="20" PlaceHolder="yyyy" value="" tabindex="1" class="registration-input" />
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <div class="row">
+                            <div class="col-md-4">
+                                
+                                <label Class="registration-label">Facility Shift</label>
+                            </div>
+                            <div class="col-md-8">
+                                <select name="FacilityShiftdd" asp-for="FacilityShiftdd" id="FacilityShiftdd" Class="registration-input">
+                                    <option value="-1">Select Facility Shift</option>
+                                    <option value="Shift-1">Shift-1</option>
+                                    <option value="Shift-2">Shift-2</option>
+                                    <option value="Round the Clock">Round the Clock</option>
+                                    <option value="NA">NA</option>
+                                </select>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="row mb-3">
+                    <div class="col-md-6 form-group">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label asp-for="FormFile" Class="registration-label">Attach Authorization Application (PDF)</label>
+                               
+                            </div>
+                            <div class="col-md-8">
+                                <input id="FormFile" type="File"  asp-for="FormFile" Class="registration-input" />
+                               
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="row mb-3">
+                    <div class="col-md-12 text-center form-group">
+                        <button  type="submit" id="Registration" text="Registration"  class="btn btn-primary" style="width:200px;" aria-label="Register">Register</button>
+                        
+                    </div>
+                    <div class="col-md-12 text-center form-group mb-3">
+                        <button type="button" id="btnClear" class="btn btn-dark mb-3" style="width:200px;" aria-label="Reset">Reset</button>
+                        <button type="button" onclick="location.href='@Url.Action("Index", "Home")'" id="btnBack" class="btn btn-dark mb-3" style="width:200px;" aria-label="Back">Back</button>
+                   
+                    </div>
+                </div>
+
+
+
+               </div>
+            </div>
+        </div>
+</form>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function GetDistricts() {
+        if ($('#Stcode').val() != "-1") {
+            var _url = '@Url.Action("Get_Districts", "Industry")';
+
+            var requestData = {
+                Stcode: $('#Stcode').val()
+            };
+            // Send the data using AJAX
+            $.ajax({
+                url: _url,
+                type: 'POST',
+                 contentType: 'application/json',
+                data: JSON.stringify(requestData),
+                //processData: false,  // tell jQuery not to process the data
+               // contentType: false,  // tell jQuery not to set contentType
+                success: function (response) {
+                    if (response.states) {
+                        $("#Dtcode").empty();
+                        $("#Dtcode").append("<option value='-1'>Select</option>");
+                        for (var i = 0; i < response.states.length; i++) {
+                            $("#Dtcode").append("<option value='" + response.states[i].dtcode + "'>" + response.states[i].district + "</option>");
+                        }
+                    }
+                   // alert('Success: ' + response.message);
+
+                },
+                error: function (xhr, status, error) {
+                    alert('Error: ' + xhr.responseText);
+                }
+            });
+        }
+    }
+    $(document).ready(function () {
+
+        $('#Registration').click(function (e) {
+            e.preventDefault();
+
+            if ($('#Password').val() != $('#Password').val()) { 
+                alert("Password Not Matched");
+                return;
+            }
+
+            var myfile = document.getElementById("FormFile");
+            // Prepare the data
+           /* var data = {
+                Username: $('#Username').val(),
+                Stcode: $('#Stcode').val(),
+                Dtcode: $('#Dtcode').val(),
+                Password: $('#Password').val(),
+                FacilityName: $('#FacilityName').val(),
+                FacilityAddress: $('#FacilityAddress').val(),
+                OccupierName: $('#OccupierName').val(),
+                MobileNumber: $('#MobileNumber').val(),
+                EmailId: $('#EmailId').val(),
+                AuthorizationNo: $('#AuthorizationNo').val(),
+                AuthissuanceDate: $('#AuthissuanceDate').val(),
+                AuthValidity: $('#AuthValidity').val(),
+                AuthProductCommenceYearValidity: $('#ProductCommenceYear').val(),
+                FacilityShiftdd: $('#FacilityShiftdd').val(),
+                FormFile: myfile.files[0],
+            };*/
+            var formData = new FormData();
+            formData.append("Username", $('#Username').val());
+            formData.append("Stcode", $('#Stcode').val());
+            formData.append("Dtcode", $('#Dtcode').val());
+            formData.append("Password", $('#Password').val());
+            formData.append("IndustryName", $('#IndustryName').val());
+            formData.append("IndustryAddress", $('#IndustryAddress').val());
+            formData.append("ContactPersonName", $('#ContactPersonName').val());
+            formData.append("MobileNumber", $('#MobileNumber').val());
+            formData.append("EmailId", $('#EmailId').val());
+            formData.append("MobileNumber", $('#MobileNumber').val());
+            formData.append("AuthorizationNo", $('#AuthorizationNo').val());
+            formData.append("AuthissuanceDate", $('#AuthissuanceDate').val());
+            formData.append("AuthValidity", $('#AuthValidity').val());
+            formData.append("ProductCommenceYear", $('#ProductCommenceYear').val());
+            formData.append("FormFile", myfile.files[0]);
+            var _url = '@Url.Action("SignupIndustry", "Industry")';
+            // Send the data using AJAX
+            $.ajax({
+                url: _url,
+                type: 'POST',
+               // contentType: 'application/json',
+                data: formData,
+                processData: false,  // tell jQuery not to process the data
+                contentType: false,  // tell jQuery not to set contentType
+                success: function (response) {
+                    alert(response.message);
+                    if (response.issuccess) {
+                        window.location.href = '@Url.Action("Index", "Home")';
+                    }
+                },
+                error: function (xhr, status, error) {
+                    alert('Error: ' + xhr.responseText);
+                }
+            });
+        });
+    });
+</script>

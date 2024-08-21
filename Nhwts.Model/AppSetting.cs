@@ -9,5 +9,7 @@ namespace Nhwts.Model
     public class AppSetting
     {
         public string WebApiLink { get; set; }
+        public string DocsLink { get; set; }
+        
     }
 }
