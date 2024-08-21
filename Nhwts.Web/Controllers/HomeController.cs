@@ -121,7 +121,7 @@ namespace Nhwts.Web.Controllers
 
                
 
-                if (md5pass == pass)
+                if (md5pass == pass.ToLower())
                 {
                     if (login.loginRadio == "industry")
                     {

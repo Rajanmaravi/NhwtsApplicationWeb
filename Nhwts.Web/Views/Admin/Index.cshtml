@@ -1,0 +1,92 @@
+﻿@page
+
+@{
+    <h4>@ViewBag.Title</h4>
+    Layout = "_IndustryLayout";
+}
+
+<form>
+<div class="my-4 page-inner-div">
+    <div class="container-fluid">
+       
+        <div class="accordion" id="accordionCollaps">
+
+
+
+            <div class="card mb-3">
+                <div class="card-header text-center" data-toggle="" data-target="#collapsethree" aria-expanded="true">USER MANAGEMENT <span class="accicon"></span></div>
+                <div class="card-body pb-3 collapse show" id="collapsethree" data-parent="#accordionCollaps">
+
+                    <div class="row jc">
+                        <div class="col-md-4 form-group">
+                            <asp:LinkButton ID="adminregestrationbtn" runat="server" data-toggle="tooltip" title="" class="icon-btn-blue text-center" data-original-title="USER REGISTRATION"><i class="fa fa-solid fa-user"></i> USER REGISTRATION</asp:LinkButton>
+                        </div>
+                        <div class="col-md-4 form-group">
+                                <button ID="viewbtn" data-toggle="tooltip" asp-controller="Admin" asp-action="ManageUsers" title="" class="icon-btn-blue text-center" data-original-title="MANAGE USER"><i class="fa fa-edit"></i> MANAGE USER</button>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <asp:LinkButton ID="transportermanage" runat="server" data-toggle="tooltip" title="" class="icon-btn-blue text-center" data-original-title="VIEW VEHICLES"><i class="fa fa-solid fa-truck"></i>VIEW VEHICLES</asp:LinkButton>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-header text-center" data-toggle="" data-target="#collapseOne" aria-expanded="true">NATIONAL HAZARDOUS WASTE TRACKING SYSTEM <span class="accicon"></span></div>
+                <div class="card-body pb-3 collapse show" id="collapseOne" data-parent="#accordionCollaps">
+
+                    <div class="industrypageoptions">
+                        <div class="">
+                            <div class="card" style="margin-bottom: 24px">
+                                <div class="card-body">
+                                    <div class="row">
+
+
+                                        <div class="col-md-4 form-group mx-auto">
+                                            <asp:LinkButton ID="manifestbtn" runat="server" data-toggle="tooltip" title="" class="icon-btn-blue" data-original-title="INDUSTRY INFORMATION"><i class="fa fa-solid fa-circle-info"></i> INDUSTRY INFORMATION</asp:LinkButton>
+                                        </div>
+                                        <div class="col-md-3 form-group mx-auto" style="display: none;">
+                                            <asp:LinkButton ID="dailyrecordsbtn" runat="server" data-toggle="tooltip" title="" class="icon-btn-blue" data-original-title="DAILY RECORDS"><i class="fa fa-solid fa-file-invoice"></i> DAILY RECORDS</asp:LinkButton>
+                                        </div>
+                                        <div class="col-md-4 form-group mx-auto">
+                                            <asp:LinkButton ID="manifestmanagement" runat="server" data-toggle="tooltip" title="" class="icon-btn-blue" data-original-title="MANIFEST MANAGEMENT"><i class="fa fa-solid fa-hashtag"></i> MANIFEST MANAGEMENT</asp:LinkButton>
+                                        </div>
+
+                                        <div class="col-md-4 form-group mx-auto">
+                                            <div class="dropdown">
+                                                <asp:LinkButton class="icon-btn-blue dropdown-toggle" ID="hw_reports" runat="server" data-original-title="HW MANAGEMENT REPORTS" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="fa fa-solid fa-file-text "></i>    <span>HW MANAGEMENT REPORTS</span>
+                                                </asp:LinkButton>
+                                                <div class="dropdown-menu" aria-labelledby="hw_reports" id="hwmenulistdiv">
+                                                    <asp:LinkButton OnClick="hw_reports_click" ID="gen_report" class="dropdown-item" runat="server">HW Generation Report</asp:LinkButton>
+                                                    <asp:LinkButton OnClick="hw_reports_click" ID="proc_report" class="dropdown-item" runat="server">HW Processing Report</asp:LinkButton>
+                                                    <asp:LinkButton OnClick="hw_reports_click" ID="disp_report" class="dropdown-item" runat="server">HW Disposal Report</asp:LinkButton>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-md-4 form-group mx-auto">
+                                            <asp:LinkButton ID="gisbtn" OnClick="goto_gis_page" runat="server" data-toggle="tooltip" title="" class="icon-btn-blue" data-original-title="GO TO GIS"><i class="fa fa-solid fa-map-location-dot"></i> GO TO GIS</asp:LinkButton>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+           
+           
+        </div>
+    </div>
+</div>
+</form>

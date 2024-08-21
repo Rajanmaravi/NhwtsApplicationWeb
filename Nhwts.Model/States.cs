@@ -10,5 +10,7 @@ namespace Nhwts.Model
     {
         public string? State { get; set; }
         public string? Stcode { get; set; }
+        public string? District { get; set; }
+        public string? Dtcode { get; set; }
     }
 }

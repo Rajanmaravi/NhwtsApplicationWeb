@@ -1,0 +1,114 @@
+﻿@page
+
+@{
+    <h4>@ViewBag.Title</h4>
+    Layout = "_IndustryLayout";
+}
+<form id="mus" >
+    <div  class="container-fluid">
+       <div class="row">
+        <div class="col-md-12">
+        <div class="card minheight mt-4">
+            <div class="card-header" id="lblHeading">View Existing Users</div>
+            <div class="card-body pb-3">
+                        <div class="col-12 form-group mb-3">
+                    <div class="row jc mob-block">
+                                <div class="col-md-6" style="text-align: right;">
+                        
+                                    <label id="usercategoryLabel" >User Type:</label>
+                                </div>
+                                    <div class="col-md-2">
+                                    <select name="usercategorydd"  id="usercategorydd" Class="registration-input">
+                                        <option value="-1">Please Select</option>
+                                        <option value="Admin">Admin</option>
+                                        <option value="CPCB">CPCB</option>
+                                        <option value="SPCB">SPCB</option>
+                                        <option value="Industry">Industry</option>
+                                    </select>
+                            
+                        
+                        </div>
+                                      
+                                            <div  style="display:none;">
+                                    <label id="ddstate" >State:</label>
+                                    <select name="statewisedd"  id="statewisedd" Class="registration-input">
+                                        <option value="All">All</option> 
+                                    </select>
+                           
+                        </div>
+
+                               
+
+
+
+
+                        <div class="search-row" style="display:none;">
+
+
+                            <div class="input-group " style="justify-content: end;">
+
+
+                                
+                                    <button class="btn btn-outline-secondary dropdown-toggle" id="searchfilterbut" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-color: #ccc"></button>
+                                    <div class="dropdown-menu dd-params-select">
+                                        <a class="dropdown-item" href='javascript:void(0)'>State</a>
+                                        <a class="dropdown-item" href='javascript:void(0)'>District</a>
+                                       
+
+
+
+
+
+
+                                    </div>
+                                    <input type="text" id="newfiltersearchtext" class="form-control" aria-label="Text input with dropdown button" placeholder="" style="height: 31px; max-width: 200px;" />
+                                    <a class="clear-symbol" onclick="clearSearchText()" id="crossbtn">X</a>
+                                    <div class="input-group-append">
+                                        <a id="newsearchclearbut"  class="btn btn-primary">Clear</a>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <div class="card-header text-center mt-3" style="font-size:11pt; height:40px;">
+                        <label id="tabletext">View Existing Users</label>
+                    </div>
+
+                    <div class="table-responsive mt-3" style="overflow: auto;">
+
+                        <table id="viewusers" class="table table-striped table-hover table-bordered" style="text-align:left;width:100%"></table>
+
+                    </div>
+                </div>
+            </div>
+           @* <table width="100%" class="mt-3 mb-3">
+                <tr>
+                    <td class="text-right">
+                        <div id="Panel1" >
+                            <button id="resetbtn" Text="Reset" TabIndex="8" Width="100px" CssClass="btn btn-primary" />
+                            <button id="btnBack" Text="Back" TabIndex="8" Width="100px" CssClass="btn btn-primary" />
+                            <a id="btnexcel" class="btn btn-primary" onclick="viewalluserdownload();" tabindex="8">Download</a>
+
+
+                        </div>
+                    </td>
+                </tr>
+                </table>*@
+        </div>
+    </div>
+</div>
+</form>

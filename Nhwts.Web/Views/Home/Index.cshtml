@@ -110,7 +110,7 @@
                                             <div style="text-align:center; color: #385dae; font-weight: bold; font-size: smaller; margin:10px auto;width:53%;">
                                                 <div id="UpdatePanel4" style="background-color:White;">
                                                     <img id="captchaImage" src="@ViewBag.CaptchaImage" alt="CAPTCHA" border="0" width="120" height="31" style="position: absolute;left: 0;" />
-                                                    <input type="image" name="loadCaptcha" id="loadCaptcha" onclick="loadCaptcha()" src="images/master/refresh.png" style="float: right; margin-right: 140px; border: none; cursor: pointer;position: relative; z-index: 1;" />
+                                                    <input type="image" name="loadCaptcha" id="loadCaptcha" onclick="loadCaptcha()" src="images/master/refresh.png" style="float: right; margin-right: 10px; border: none; cursor: pointer;position: relative; z-index: 1;" />
                                                     <input name="txtCap" type="text" maxlength="8" id="txtCap" tabindex="3" style="border-color:#385DAE;border-width:1px;border-style:Solid;width:100%;margin-top:10px"><br>
                                                 </div>
                                             </div>
@@ -158,7 +158,7 @@
 
                                         <!-- Common Send OTP Button -->
                                         <div id="sendotpbtnWrapper" style="display: none;" style="text-align:center; margin-top: 10px;">
-                                            <input type="submit" name="sendotpbtn" value="Send OTP" onclick="sendOtp();" id="sendotpbtn" tabindex="4" class="w3-button w3-round w3-hover-postalred btn-ui" style="width:100px;color: #fff!important;">
+                                            <input type="button" name="sendotpbtn" value="Send OTP"  id="sendotpbtn" tabindex="4" class="w3-button w3-round w3-hover-postalred btn-ui" style="width:100px;color: #fff!important;">
                                         </div>
 
                                        
@@ -167,7 +167,7 @@
 
                                     <div style="">
                                         <center>
-                                            <a id="btnRegistration" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnRegistration&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="color:#058BE4;">Registration</a>
+                                            <a id="btnRegistration" asp-controller="Industry" asp-action="IndustryRegistration" method="post"  style="color:#058BE4;">Registration</a>
 
                                             <a id="forgotpwbtn" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;forgotpwbtn&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="color: rgb(5, 139, 228); margin-left: 21px;">Forgot Password</a>
 
@@ -290,6 +290,16 @@
 
         //For login
         $(document).ready(function () {
+
+            
+
+            $('#sendotpbtn').on('click', function (event) {
+
+                if ($('#usertypedd').val() == "Admin") { 
+                    window.location.href = '@Url.Action("Index", "Admin")';
+                }
+
+              });
 
             $('#loginbtn').on('click', function (event) {
                 event.preventDefault(); // Prevent form submission

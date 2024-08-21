@@ -53,5 +53,41 @@ namespace Nhwts.Repository.Implementation
                 throw new Exception();
             }
         }
+
+        public async Task<IndustryRegistration> SignupIndustry(IndustryRegistration details)
+        {
+            try
+            {
+                IndustryRegistration userData = new IndustryRegistration();
+                using (var client = new HttpClient())
+                {
+                    client.BaseAddress = new Uri(_appSetting.WebApiLink ?? throw new ArgumentNullException(nameof(_appSetting.WebApiLink), "WebApiLink cannot be null"));
+                    client.DefaultRequestHeaders.Clear();
+                    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                    details.FileName = _appSetting.DocsLink+ details.FileName;
+                     var jsonContent = JsonConvert.SerializeObject(details);
+
+                    var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+                    var response = await client.PostAsync("Api/Login/SignupIndustry", content);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var jsonResponse = await response.Content.ReadAsStringAsync();
+                        userData = JsonConvert.DeserializeObject<IndustryRegistration>(jsonResponse);
+                    }
+                    else
+                    {
+                        throw new HttpRequestException($"Request failed with status code {response.StatusCode}");
+                    }
+                }
+
+                return userData;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception();
+            }
+        }
+
     }
 }

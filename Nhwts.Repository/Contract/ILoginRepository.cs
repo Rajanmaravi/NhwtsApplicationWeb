@@ -11,5 +11,7 @@ namespace Nhwts.Repository.Contract
     public interface ILoginRepository
     {
        Task<NonOcmmsUserModel> GetIndustry(LoginDto login);
+
+        Task<IndustryRegistration> SignupIndustry(IndustryRegistration details);
     }
 }

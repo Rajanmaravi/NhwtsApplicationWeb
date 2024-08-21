@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Nhwts.Web.csproj": {}
+    "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\Nhwts.Web.csproj": {}
   },
   "projects": {
-    "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj": {
+    "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj",
+        "projectUniqueName": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj",
         "projectName": "Nhwts.Model",
-        "projectPath": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj",
-        "packagesPath": "C:\\Users\\rajan\\.nuget\\packages\\",
-        "outputPath": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\obj\\",
+        "projectPath": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj",
+        "packagesPath": "C:\\Users\\chowd\\.nuget\\packages\\",
+        "outputPath": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rajan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\chowd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +45,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,25 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Nhwts.Repository.csproj": {
+    "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Repository\\Nhwts.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Nhwts.Repository.csproj",
+        "projectUniqueName": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Repository\\Nhwts.Repository.csproj",
         "projectName": "Nhwts.Repository",
-        "projectPath": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Nhwts.Repository.csproj",
-        "packagesPath": "C:\\Users\\rajan\\.nuget\\packages\\",
-        "outputPath": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\obj\\",
+        "projectPath": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Repository\\Nhwts.Repository.csproj",
+        "packagesPath": "C:\\Users\\chowd\\.nuget\\packages\\",
+        "outputPath": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rajan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\chowd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,8 +96,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj": {
-                "projectPath": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj"
+              "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj": {
+                "projectPath": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj"
               }
             }
           }
@@ -148,25 +146,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Nhwts.Web.csproj": {
+    "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\Nhwts.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Nhwts.Web.csproj",
+        "projectUniqueName": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\Nhwts.Web.csproj",
         "projectName": "Nhwts.Web",
-        "projectPath": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Nhwts.Web.csproj",
-        "packagesPath": "C:\\Users\\rajan\\.nuget\\packages\\",
-        "outputPath": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\obj\\",
+        "projectPath": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\Nhwts.Web.csproj",
+        "packagesPath": "C:\\Users\\chowd\\.nuget\\packages\\",
+        "outputPath": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rajan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\chowd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -181,11 +175,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj": {
-                "projectPath": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj"
+              "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj": {
+                "projectPath": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj"
               },
-              "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Nhwts.Repository.csproj": {
-                "projectPath": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Nhwts.Repository.csproj"
+              "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Repository\\Nhwts.Repository.csproj": {
+                "projectPath": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Repository\\Nhwts.Repository.csproj"
               }
             }
           }
@@ -229,7 +223,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
