@@ -50,8 +50,7 @@
               "RelativeToolTip": "Nhwts.Web\\Controllers\\IndustryController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T08:26:05.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T08:26:05.714Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "Nhwts.Repository\\Implementation\\LoginRepository.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAewCUAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T08:14:26.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T08:14:26.679Z"
             },
             {
               "$type": "Document",
@@ -110,7 +108,7 @@
               "RelativeDocumentMoniker": "Nhwts.Web\\Controllers\\HomeController.cs",
               "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Nhwts.Web\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAWwFIAAAAxAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAMwCYAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T06:56:40.984Z",
               "EditorCaption": ""
@@ -125,8 +123,7 @@
               "RelativeToolTip": "Nhwts.Web\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAADwBAAAAAAAAAADwv1EBAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T11:52:52.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T11:52:52.756Z"
             }
           ]
         }
