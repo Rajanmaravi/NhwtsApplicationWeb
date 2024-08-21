@@ -1,38 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\",
+  "WorkspaceRootPath": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|r:\\workspace\\nhwtsweb\\nhwtsapplicationweb\\nhwts.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|solutionrelative:nhwts.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|r:\\workspace\\nhwtsweb\\nhwtsapplicationweb\\nhwts.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|solutionrelative:nhwts.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|solutionrelative:nhwts.web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|r:\\workspace\\nhwtsweb\\nhwtsapplicationweb\\nhwts.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|solutionrelative:nhwts.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.web\\helper\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|solutionrelative:nhwts.web\\helper\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|r:\\workspace\\nhwtsweb\\nhwtsapplicationweb\\nhwts.web\\views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|solutionrelative:nhwts.web\\views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|r:\\workspace\\nhwtsweb\\nhwtsapplicationweb\\nhwts.web\\views\\industry\\industryregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|solutionrelative:nhwts.web\\views\\industry\\industryregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|r:\\workspace\\nhwtsweb\\nhwtsapplicationweb\\nhwts.web\\controllers\\industrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.web\\controllers\\industrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|solutionrelative:nhwts.web\\controllers\\industrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD94419B-2DC5-445B-A347-B0F94B46B920}|Nhwts.Model\\Nhwts.Model.csproj|r:\\workspace\\nhwtsweb\\nhwtsapplicationweb\\nhwts.model\\industryregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD94419B-2DC5-445B-A347-B0F94B46B920}|Nhwts.Model\\Nhwts.Model.csproj|solutionrelative:nhwts.model\\industryregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|solutionrelative:nhwts.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D5485EC-5B23-4735-83A8-40D37D2E199B}|Nhwts.Repository\\Nhwts.Repository.csproj|r:\\workspace\\nhwtsweb\\nhwtsapplicationweb\\nhwts.repository\\implementation\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|solutionrelative:nhwts.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5485EC-5B23-4735-83A8-40D37D2E199B}|Nhwts.Repository\\Nhwts.Repository.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.repository\\implementation\\staterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5485EC-5B23-4735-83A8-40D37D2E199B}|Nhwts.Repository\\Nhwts.Repository.csproj|solutionrelative:nhwts.repository\\implementation\\staterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5485EC-5B23-4735-83A8-40D37D2E199B}|Nhwts.Repository\\Nhwts.Repository.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.repository\\implementation\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D5485EC-5B23-4735-83A8-40D37D2E199B}|Nhwts.Repository\\Nhwts.Repository.csproj|solutionrelative:nhwts.repository\\implementation\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5485EC-5B23-4735-83A8-40D37D2E199B}|Nhwts.Repository\\Nhwts.Repository.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.repository\\implementation\\captcharepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5485EC-5B23-4735-83A8-40D37D2E199B}|Nhwts.Repository\\Nhwts.Repository.csproj|solutionrelative:nhwts.repository\\implementation\\captcharepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5485EC-5B23-4735-83A8-40D37D2E199B}|Nhwts.Repository\\Nhwts.Repository.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.repository\\contract\\istaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5485EC-5B23-4735-83A8-40D37D2E199B}|Nhwts.Repository\\Nhwts.Repository.csproj|solutionrelative:nhwts.repository\\contract\\istaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5485EC-5B23-4735-83A8-40D37D2E199B}|Nhwts.Repository\\Nhwts.Repository.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.repository\\contract\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5485EC-5B23-4735-83A8-40D37D2E199B}|Nhwts.Repository\\Nhwts.Repository.csproj|solutionrelative:nhwts.repository\\contract\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5485EC-5B23-4735-83A8-40D37D2E199B}|Nhwts.Repository\\Nhwts.Repository.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.repository\\contract\\icaptcharepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5485EC-5B23-4735-83A8-40D37D2E199B}|Nhwts.Repository\\Nhwts.Repository.csproj|solutionrelative:nhwts.repository\\contract\\icaptcharepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD94419B-2DC5-445B-A347-B0F94B46B920}|Nhwts.Model\\Nhwts.Model.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.model\\stateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD94419B-2DC5-445B-A347-B0F94B46B920}|Nhwts.Model\\Nhwts.Model.csproj|solutionrelative:nhwts.model\\stateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD94419B-2DC5-445B-A347-B0F94B46B920}|Nhwts.Model\\Nhwts.Model.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.model\\states.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD94419B-2DC5-445B-A347-B0F94B46B920}|Nhwts.Model\\Nhwts.Model.csproj|solutionrelative:nhwts.model\\states.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD94419B-2DC5-445B-A347-B0F94B46B920}|Nhwts.Model\\Nhwts.Model.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.model\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD94419B-2DC5-445B-A347-B0F94B46B920}|Nhwts.Model\\Nhwts.Model.csproj|solutionrelative:nhwts.model\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|solutionrelative:nhwts.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|f:\\nic\\nhwts_applications\\nhwtsapplicationweb\\nhwts.web\\views\\shared\\_industrylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2200A803-0DDD-43DB-9CFD-BDBAD79278F9}|Nhwts.Web\\Nhwts.Web.csproj|solutionrelative:nhwts.web\\views\\shared\\_industrylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,134 +78,218 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Nhwts.Web\\Views\\Home\\Index.cshtml",
-              "ToolTip": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Nhwts.Web\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAJwAAAAAAAAAAAAAAKkAAAB/AAAA",
+              "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Nhwts.Web\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Nhwts.Web\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T08:55:15.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ManageUsers.cshtml",
-              "DocumentMoniker": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\Views\\Admin\\ManageUsers.cshtml",
-              "RelativeDocumentMoniker": "Nhwts.Web\\Views\\Admin\\ManageUsers.cshtml",
-              "ToolTip": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\Views\\Admin\\ManageUsers.cshtml",
-              "RelativeToolTip": "Nhwts.Web\\Views\\Admin\\ManageUsers.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T08:49:01.859Z",
+              "WhenOpened": "2024-08-21T11:15:15.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Nhwts.Web\\Controllers\\AdminController.cs",
-              "ToolTip": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Nhwts.Web\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAzwA4AAAAoAAAA",
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Nhwts.Web\\Models\\ErrorViewModel.cs",
+              "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Nhwts.Web\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T06:30:51.51Z",
+              "WhenOpened": "2024-08-21T11:00:06.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "Nhwts.Web\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "Nhwts.Web\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAB5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T06:09:11.235Z",
+              "DocumentIndex": 6,
+              "Title": "StateRepository.cs",
+              "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Implementation\\StateRepository.cs",
+              "RelativeDocumentMoniker": "Nhwts.Repository\\Implementation\\StateRepository.cs",
+              "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Implementation\\StateRepository.cs",
+              "RelativeToolTip": "Nhwts.Repository\\Implementation\\StateRepository.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T10:59:17.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IStateRepository.cs",
+              "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Contract\\IStateRepository.cs",
+              "RelativeDocumentMoniker": "Nhwts.Repository\\Contract\\IStateRepository.cs",
+              "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Contract\\IStateRepository.cs",
+              "RelativeToolTip": "Nhwts.Repository\\Contract\\IStateRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T10:58:53.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICaptchaRepository.cs",
+              "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Contract\\ICaptchaRepository.cs",
+              "RelativeDocumentMoniker": "Nhwts.Repository\\Contract\\ICaptchaRepository.cs",
+              "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Contract\\ICaptchaRepository.cs",
+              "RelativeToolTip": "Nhwts.Repository\\Contract\\ICaptchaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T10:58:49.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StateViewModel.cs",
+              "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\StateViewModel.cs",
+              "RelativeDocumentMoniker": "Nhwts.Model\\StateViewModel.cs",
+              "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\StateViewModel.cs",
+              "RelativeToolTip": "Nhwts.Model\\StateViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T10:58:43.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IndustryController.cs",
-              "DocumentMoniker": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\Controllers\\IndustryController.cs",
-              "RelativeDocumentMoniker": "Nhwts.Web\\Controllers\\IndustryController.cs",
-              "ToolTip": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\Controllers\\IndustryController.cs",
-              "RelativeToolTip": "Nhwts.Web\\Controllers\\IndustryController.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAqwA8AAAAwAAAA",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Nhwts.Web\\Controllers\\AdminController.cs",
+              "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Nhwts.Web\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T08:26:05.714Z"
+              "WhenOpened": "2024-08-21T09:39:14.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CaptchaRepository.cs",
+              "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Implementation\\CaptchaRepository.cs",
+              "RelativeDocumentMoniker": "Nhwts.Repository\\Implementation\\CaptchaRepository.cs",
+              "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Implementation\\CaptchaRepository.cs",
+              "RelativeToolTip": "Nhwts.Repository\\Implementation\\CaptchaRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T09:37:43.179Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IndustryRegistration.cshtml",
-              "DocumentMoniker": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\Views\\Industry\\IndustryRegistration.cshtml",
-              "RelativeDocumentMoniker": "Nhwts.Web\\Views\\Industry\\IndustryRegistration.cshtml",
-              "ToolTip": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Web\\Views\\Industry\\IndustryRegistration.cshtml",
-              "RelativeToolTip": "Nhwts.Web\\Views\\Industry\\IndustryRegistration.cshtml",
-              "ViewState": "AQIAAN8AAAAAAAAAAAAiwPAAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-<<<<<<< HEAD
-              "WhenOpened": "2024-08-11T10:32:14.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginRepository.cs",
-              "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Implementation\\LoginRepository.cs",
-              "RelativeDocumentMoniker": "Nhwts.Repository\\Implementation\\LoginRepository.cs",
-              "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Implementation\\LoginRepository.cs",
-              "RelativeToolTip": "Nhwts.Repository\\Implementation\\LoginRepository.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAewCUAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T08:14:26.679Z"
-=======
-              "WhenOpened": "2024-08-16T11:15:43.575Z",
-              "EditorCaption": ""
->>>>>>> fb24e17befefdadd1ebba458ad075469647cc6dc
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IndustryRegistration.cs",
-              "DocumentMoniker": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Model\\IndustryRegistration.cs",
-              "RelativeDocumentMoniker": "Nhwts.Model\\IndustryRegistration.cs",
-              "ToolTip": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Model\\IndustryRegistration.cs",
-              "RelativeToolTip": "Nhwts.Model\\IndustryRegistration.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAA4wCIAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< HEAD
-              "WhenOpened": "2024-08-08T08:37:52.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Nhwts.Web\\Controllers\\HomeController.cs",
               "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Nhwts.Web\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAMwCYAAABRAAAA",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAwwCYAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T06:56:40.984Z",
-=======
-              "WhenOpened": "2024-08-19T04:04:40.921Z",
->>>>>>> fb24e17befefdadd1ebba458ad075469647cc6dc
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 3,
+              "Title": "IndustryController.cs",
+              "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Controllers\\IndustryController.cs",
+              "RelativeDocumentMoniker": "Nhwts.Web\\Controllers\\IndustryController.cs",
+              "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Controllers\\IndustryController.cs",
+              "RelativeToolTip": "Nhwts.Web\\Controllers\\IndustryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T08:26:05.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Helper\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Nhwts.Web\\Helper\\ServiceRegistration.cs",
+              "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Helper\\ServiceRegistration.cs",
+              "RelativeToolTip": "Nhwts.Web\\Helper\\ServiceRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T08:37:52.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "States.cs",
+              "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\States.cs",
+              "RelativeDocumentMoniker": "Nhwts.Model\\States.cs",
+              "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\States.cs",
+              "RelativeToolTip": "Nhwts.Model\\States.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T10:58:41.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "Nhwts.Model\\ResponseModel.cs",
+              "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\ResponseModel.cs",
+              "RelativeToolTip": "Nhwts.Model\\ResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T10:58:26.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginRepository.cs",
+              "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Implementation\\LoginRepository.cs",
+              "RelativeDocumentMoniker": "Nhwts.Repository\\Implementation\\LoginRepository.cs",
+              "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Implementation\\LoginRepository.cs",
+              "RelativeToolTip": "Nhwts.Repository\\Implementation\\LoginRepository.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAYwCUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T08:14:26.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ILoginRepository.cs",
+              "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Contract\\ILoginRepository.cs",
+              "RelativeDocumentMoniker": "Nhwts.Repository\\Contract\\ILoginRepository.cs",
+              "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Repository\\Contract\\ILoginRepository.cs",
+              "RelativeToolTip": "Nhwts.Repository\\Contract\\ILoginRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T08:13:57.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_IndustryLayout.cshtml",
+              "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Views\\Shared\\_IndustryLayout.cshtml",
+              "RelativeDocumentMoniker": "Nhwts.Web\\Views\\Shared\\_IndustryLayout.cshtml",
+              "ToolTip": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Views\\Shared\\_IndustryLayout.cshtml",
+              "RelativeToolTip": "Nhwts.Web\\Views\\Shared\\_IndustryLayout.cshtml",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAAAHwAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T10:32:14.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Web\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Nhwts.Web\\Views\\Home\\Index.cshtml",
@@ -178,18 +298,6 @@
               "ViewState": "AQIAADwBAAAAAAAAAADwv1EBAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-07T11:52:52.756Z"
-=======
-              "DocumentIndex": 7,
-              "Title": "LoginRepository.cs",
-              "DocumentMoniker": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Repository\\Implementation\\LoginRepository.cs",
-              "RelativeDocumentMoniker": "Nhwts.Repository\\Implementation\\LoginRepository.cs",
-              "ToolTip": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Repository\\Implementation\\LoginRepository.cs",
-              "RelativeToolTip": "Nhwts.Repository\\Implementation\\LoginRepository.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAiwEcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T11:24:20.916Z",
-              "EditorCaption": ""
->>>>>>> fb24e17befefdadd1ebba458ad075469647cc6dc
             }
           ]
         }

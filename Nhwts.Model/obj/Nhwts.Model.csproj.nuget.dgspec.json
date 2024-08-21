@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj": {}
+    "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj": {}
   },
   "projects": {
-    "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj": {
+    "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj",
+        "projectUniqueName": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj",
         "projectName": "Nhwts.Model",
-        "projectPath": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj",
-        "packagesPath": "C:\\Users\\chowd\\.nuget\\packages\\",
-        "outputPath": "R:\\Workspace\\NhwtsWeb\\NhwtsApplicationWeb\\Nhwts.Model\\obj\\",
+        "projectPath": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\Nhwts.Model.csproj",
+        "packagesPath": "C:\\Users\\rajan\\.nuget\\packages\\",
+        "outputPath": "F:\\NIC\\nhwts_applications\\NhwtsApplicationWeb\\Nhwts.Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chowd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rajan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

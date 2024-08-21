@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nhwts.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1044453cc5d63fe5b3de9b4bb6d220f5e9a91768")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6e0252f151d86b8dbd3768064cbcfe761c468cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nhwts.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nhwts.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

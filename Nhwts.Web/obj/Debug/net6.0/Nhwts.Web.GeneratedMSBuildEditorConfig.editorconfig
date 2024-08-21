@@ -9,59 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Nhwts.Web
 build_property.RootNamespace = Nhwts.Web
-build_property.ProjectDir = R:\Workspace\NhwtsWeb\NhwtsApplicationWeb\Nhwts.Web\
+build_property.ProjectDir = F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = R:\Workspace\NhwtsWeb\NhwtsApplicationWeb\Nhwts.Web
+build_property.MSBuildProjectDirectory = F:\NIC\nhwts_applications\NhwtsApplicationWeb\Nhwts.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[R:/Workspace/NhwtsWeb/NhwtsApplicationWeb/Nhwts.Web/Views/Admin/Index.cshtml]
+[F:/NIC/nhwts_applications/NhwtsApplicationWeb/Nhwts.Web/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[R:/Workspace/NhwtsWeb/NhwtsApplicationWeb/Nhwts.Web/Views/Admin/ManageUsers.cshtml]
+[F:/NIC/nhwts_applications/NhwtsApplicationWeb/Nhwts.Web/Views/Admin/ManageUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[R:/Workspace/NhwtsWeb/NhwtsApplicationWeb/Nhwts.Web/Views/Home/Index.cshtml]
+[F:/NIC/nhwts_applications/NhwtsApplicationWeb/Nhwts.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[R:/Workspace/NhwtsWeb/NhwtsApplicationWeb/Nhwts.Web/Views/Home/Privacy.cshtml]
+[F:/NIC/nhwts_applications/NhwtsApplicationWeb/Nhwts.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[R:/Workspace/NhwtsWeb/NhwtsApplicationWeb/Nhwts.Web/Views/Industry/Industry.cshtml]
+[F:/NIC/nhwts_applications/NhwtsApplicationWeb/Nhwts.Web/Views/Industry/Industry.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kdXN0cnlcSW5kdXN0cnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[R:/Workspace/NhwtsWeb/NhwtsApplicationWeb/Nhwts.Web/Views/Industry/IndustryRegistration.cshtml]
+[F:/NIC/nhwts_applications/NhwtsApplicationWeb/Nhwts.Web/Views/Industry/IndustryRegistration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kdXN0cnlcSW5kdXN0cnlSZWdpc3RyYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[R:/Workspace/NhwtsWeb/NhwtsApplicationWeb/Nhwts.Web/Views/Shared/Error.cshtml]
+[F:/NIC/nhwts_applications/NhwtsApplicationWeb/Nhwts.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[R:/Workspace/NhwtsWeb/NhwtsApplicationWeb/Nhwts.Web/Views/Shared/_IndustryLayout.cshtml]
+[F:/NIC/nhwts_applications/NhwtsApplicationWeb/Nhwts.Web/Views/Shared/_IndustryLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9JbmR1c3RyeUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[R:/Workspace/NhwtsWeb/NhwtsApplicationWeb/Nhwts.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/NIC/nhwts_applications/NhwtsApplicationWeb/Nhwts.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[R:/Workspace/NhwtsWeb/NhwtsApplicationWeb/Nhwts.Web/Views/_ViewImports.cshtml]
+[F:/NIC/nhwts_applications/NhwtsApplicationWeb/Nhwts.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[R:/Workspace/NhwtsWeb/NhwtsApplicationWeb/Nhwts.Web/Views/_ViewStart.cshtml]
+[F:/NIC/nhwts_applications/NhwtsApplicationWeb/Nhwts.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[R:/Workspace/NhwtsWeb/NhwtsApplicationWeb/Nhwts.Web/Views/Shared/_Layout.cshtml]
+[F:/NIC/nhwts_applications/NhwtsApplicationWeb/Nhwts.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-a8vsbg0eo6
