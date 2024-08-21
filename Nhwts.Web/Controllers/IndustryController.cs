@@ -20,7 +20,7 @@ namespace Nhwts.Web.Controllers
 
         public IndustryController(IStateRepository stateRepository,ILoginRepository loginRepository)
         {
-
+            //industry controller
             _stateRepository = stateRepository;
             _loginRepository = loginRepository;
 
